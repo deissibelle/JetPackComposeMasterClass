@@ -43,5 +43,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 fun GreetingPreview() {
     JetPackComposeMasterClassTheme {
         Greeting("Android")
+
     }
 }
