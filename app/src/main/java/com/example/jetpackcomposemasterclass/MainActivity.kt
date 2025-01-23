@@ -42,7 +42,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     JetPackComposeMasterClassTheme {
-        Greeting("Android")
+        HotelBookingScreen()
 
     }
 }
