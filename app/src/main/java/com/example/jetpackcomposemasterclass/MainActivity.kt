@@ -11,6 +11,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.jetpackcomposemasterclass.authentification.screens.PostOfficeApp
+import com.example.jetpackcomposemasterclass.authentification.screens.SignUpScreen
 import com.example.jetpackcomposemasterclass.basiclayouts.HotelBookingScreen
 import com.example.jetpackcomposemasterclass.ui.theme.JetPackComposeMasterClassTheme
 
@@ -20,29 +22,23 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             JetPackComposeMasterClassTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    HotelBookingScreen(
-                        modifier = Modifier.padding(innerPadding)
-                    )
+               setContent {
+                   PostOfficeApp()
+               }
+
                 }
             }
         }
     }
-}
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
+
+
 
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
     JetPackComposeMasterClassTheme {
-        HotelBookingScreen()
+       PostOfficeApp()
 
     }
 }

@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">JetPackComposeMasterClass</string>
+    <string name ="hello">Hey there,</string>
+    <string name ="create_an_acount">Create an Acount,</string>
+    <string name ="welcome_back">Welcome Back,</string>
+    <string name ="firstname">FirstName</string>
+    <string name ="lastname">LastName</string>
+    <string name ="password">Password</string>
+    <string name ="email">Email</string>
+    <string name ="hide_password">Hide password</string>
+    <string name ="show_password">Show password</string>
+    <string name ="terms_and_conditions">By continuing you accept our Privacy Policy and Term of Use</string>
+    <string name ="terms_and_conditions_Header"> Term of Use</string>
+    <string name ="register"> Register</string>
+    <string name ="login"> Login</string>
+    <string name ="or"> or</string>
+    <string name ="go_to_login"> Already have an account? Login</string>
+    <string name ="welcome"> WelcomeBack</string>
+    <string name ="forgot_password"> Forgot your Password?</string>
+
+
+
+
+
 </resources>

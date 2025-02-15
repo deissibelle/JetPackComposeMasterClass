@@ -19,6 +19,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material3.Card
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
@@ -97,6 +98,9 @@ fun PracticalExercise(
                 }
             }
         }
+        Card(
+            modifier = modifier.fillMaxWidth()
+        ) { }
         Text(
             text = project.description,
             color = Color.White,
